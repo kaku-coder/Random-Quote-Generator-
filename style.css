@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IS:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(5, 5, 4, 0.479);
+  color: white;
+}
+h1{
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+.contenor{
+  width: 600px;
+  border: 1px solid rgb(114, 51, 197);
+  background-color: rgba(111, 45, 196, 0.699);
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+    font-family: "Afacad Flux", serif;
+box-shadow: -1px -1px 48px 3px rgba(255,255,255,0.75);
+-webkit-box-shadow: -1px -1px 48px 3px rgba(255,255,255,0.75);
+-moz-box-shadow: -1px -1px 48px 3px rgba(255,255,255,0.75);
+}
+.quotetext{
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.authorname{
+  margin-top: 20px;
+  color: orange;
+}
+.button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+  font-family: "Playfair Display", 
+}
